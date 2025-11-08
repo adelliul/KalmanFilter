@@ -1,4 +1,6 @@
-1. Introduction 
+# Kalman Filter
+
+## Introduction 
 This project demonstrates how a Kalman filter can be used to smooth noisy market price data. In this case, for futures contracts like ES (S&P 500), NQ (Nasdaq), or CL (Crude Oil).
 
 Financial markets are full of noisy data, each price tick isn’t always meaningful. The Kalman filter acts like a smart averaging system that learns over time how much to trust new prices versus its current belief.
@@ -12,7 +14,7 @@ Or should I ignore it a bit (if I think it’s just noise)?
 This decision depends on how “trustworthy” the market data looks at that moment, captured by the Kalman Gain (K).
 
 
-2. Concept Overview 
+## Concept Overview 
 The Kalman filter works like a weighing system between two ideas:
 What you already believe (prior estimate)
  → e.g., your current fair value for ES is 5050.0
