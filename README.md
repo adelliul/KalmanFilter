@@ -38,4 +38,9 @@ This helps smooth prices and track trends more accurately than raw tick data
 
 To know more please go to Kalman_Filter.pdf
 
+## Makefile
+Build: Make
+Run: Make run
+Clean: Make clean
+
 
